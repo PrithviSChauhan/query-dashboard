@@ -53,7 +53,7 @@ const QueryInput = () => {
         <form onSubmit={handleSubmitQuery} className="flex flex-col gap-4">
           <input
             type="text"
-            placeholder="Enter your query"
+            placeholder="Eg. What is the... "
             value={query}
             onChange={handleInputChange}
             className="w-full bg-gray-600 rounded-full p-3 text-center text-white border-2 border-white focus:outline-none focus:ring-2 focus:ring-gray-400"
